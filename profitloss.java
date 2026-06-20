@@ -7,7 +7,7 @@ public class profitloss {
         System.out.println("Enter the vaue of CP");
         double CP = sc.nextDouble();
         if(SP > CP){
-            System.out.println("its profit of " + (SP+CP));
+            System.out.println("its profit of " + (SP-CP));
         }
         else if (SP < CP){
             System.out.println("its loss of " + (CP-SP));
